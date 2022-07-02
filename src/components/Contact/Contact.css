@@ -1,0 +1,174 @@
+.contact {
+    background-color: #1F1D2C;
+    height: 100vh;
+    padding-top: 15vh;
+
+
+}
+
+.blocmail {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+}
+
+.blocnomenvoyeur,
+.blocmailenvoyeur,
+.text {
+    border-radius: 15px;
+    background-color: #262837;
+    color: white;
+    padding: 15px;
+    border: 3px solid #555a80;
+    margin-top: 1vh;
+}
+
+.nomenvoyeur {
+    display: flex;
+    flex-direction: column;
+    grid-area: 2 / 3 / 3 / 5;
+    margin-right: 20px;
+    color: white;
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.mailenvoyeur {
+    grid-area: 2 / 5 / 3 / 7;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 2vh;
+
+}
+
+
+.blocmessage {
+    margin-top: 3vh;
+    grid-area: 3 / 2 / 7 / 8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 2vh;
+
+
+}
+
+.boutonenvoie {
+    grid-area: 7 / 4 / 8 / 6;
+}
+
+.text {
+
+    width: 75vh;
+    height: 40vh;
+    resize: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.boutonenvoie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.boutonenvoyer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vh;
+}
+
+.messagemail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.messagemail>h2 {
+    color: turquoise;
+    border-bottom: 1px solid turquoise;
+}
+
+@media screen and (max-width:450px) {
+
+
+    .blocmail {
+        height: 80vh;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+
+    }
+
+    .blocnomenvoyeur,
+    .blocmailenvoyeur,
+    .text {
+        border-radius: 15px;
+        background-color: #262837;
+        color: white;
+        padding: 15px;
+        border: 3px solid #555a80;
+        margin-top: 1vh;
+    }
+
+    .nomenvoyeur {
+        display: flex;
+        flex-direction: column;
+        grid-area: 1 / 2 / 2 / 7;
+        color: white;
+        font-size: 2vh;
+        font-weight: bold;
+        margin: 0;
+
+    }
+
+    .mailenvoyeur {
+        grid-area: 2 / 2 / 3 / 7;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-weight: bold;
+        font-size: 2vh;
+        margin: 0;
+
+    }
+
+
+    .blocmessage {
+        margin-top: 3vh;
+        grid-area: 3 / 2 / 6 / 7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-weight: bold;
+        font-size: 2vh;
+
+    }
+
+    .boutonenvoie {
+        grid-area: 5 / 4 / 6 / 5;
+    }
+
+    .text {
+        width: 38vh;
+        height: 30vh;
+    }
+
+
+
+}

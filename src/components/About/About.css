@@ -1,0 +1,37 @@
+.background-About {
+    background-color: #04213e;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloc-about {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px 0 50px;
+    background-color: #262837;
+    border: 3px solid #555a80;
+    border-radius: 15px;
+    align-items: center;
+    overflow-wrap: break-word;
+    white-space: pre-line;
+}
+
+.description-about {
+    margin: 10px 30px 10px 30px;
+    overflow-wrap: break-word;
+    color: white;
+    word-wrap: break-word;
+    white-space: pre-line;
+    font-size: 2vh;
+}
+
+.titre-about {
+    margin-top: 30px;
+    color: turquoise;
+    border-bottom: 1px solid turquoise;
+
+
+}

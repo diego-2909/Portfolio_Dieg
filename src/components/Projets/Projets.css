@@ -1,0 +1,88 @@
+.projets {
+    padding-top: 10vh;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #04213e;
+    ;
+    justify-content: center;
+
+
+}
+
+.principauxprojets {
+    grid-area: 1 / 1 / 2 / 8;
+    margin-top: 30px;
+    color: turquoise;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3vh;
+}
+
+.principauxprojets>h2 {
+    border-bottom: 1px solid turquoise;
+
+}
+
+
+.projet {
+    grid-area: 2 / 2 / 4 / 4;
+}
+
+
+
+.projet2 {
+    grid-area: 5 / 2 / 7 / 4;
+}
+
+.projet3 {
+    grid-area: 7 / 5 / 2 / 7;
+}
+
+.miniature>h4 {
+    color: white;
+}
+
+.blocprojet {
+    display: flex;
+    flex-direction: column;
+    background-color: #262837;
+    border: 3px solid #555a80;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.imageprojet1 {
+    width: 30vh;
+}
+
+.imageprojetjava {
+    height: 24vh;
+    margin-bottom: 2vh;
+}
+
+.blocprojet>h4 {
+    font-size: 2.5vh;
+}
+
+.blocprojet>p {
+    font-size: 2vh;
+}
+
+.lienProjet {
+    color: white;
+
+}
+
+.lienProjet:hover {
+    color: gray;
+
+}
