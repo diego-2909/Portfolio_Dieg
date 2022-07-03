@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
-import "./carousel.min.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./Carousele.css"
 import projetPortfolio from "../../media/Projet1.png"
 import imageprojetjava1 from "../../media/imageprojetjava1.png"
@@ -20,6 +20,7 @@ const CarouselProjet = () => {
                         <div className='image-carousel'>
                             <img src={imageprojetjava2} alt="" className='imageprojetjava imagecache' />
                             <img src={imageprojetjava1} alt="" className='imageprojetjava' />
+
 
 
                         </div>
