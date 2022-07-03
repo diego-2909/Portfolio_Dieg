@@ -1,0 +1,80 @@
+.background-carousel {
+    background-color: #04213e;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloc-carousel {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px 0 50px;
+    background-color: #262837;
+    border: 3px solid #555a80;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    overflow-wrap: break-word;
+    white-space: pre-line;
+
+    height: 70vh;
+    width: 90%;
+}
+
+.carousel-root {
+    height: 100%;
+    width: 100%;
+
+}
+
+.carousel-slider {
+    height: 70vh;
+
+}
+
+.slide1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.imageprojetjava {
+    height: 45vh;
+    object-fit: contain;
+    max-width: 50%;
+    padding: 5vh;
+    margin-bottom: 2vh;
+
+}
+
+.image-carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.slideabc>h4,
+.slideabc>p {
+    color: white;
+}
+
+@media screen and (max-width : 680px) {
+    .imagecache {
+        display: none !important;
+    }
+
+    .imageprojetjava {
+        max-width: 150vh;
+        object-fit: contain;
+        padding: 0;
+
+    }
+
+    .image-carousel {
+        display: block;
+    }
+
+
+}
