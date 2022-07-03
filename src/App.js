@@ -7,6 +7,7 @@ import About from './components/About/About';
 import Competences from './components/competences/Competences';
 import { Contact } from './components/Contact/Contact';
 import Projets from './components/Projets/Projets'
+import CarouselProjet from './components/Carousels/CarouselProjet';
 
 
 function App() {
@@ -21,9 +22,9 @@ function App() {
         <Navbar />
         <BlocPresentation />
         <About />
+        <CarouselProjet />
 
         <Competences />
-        <Projets />
         <Contact />
       </div>
     </>
