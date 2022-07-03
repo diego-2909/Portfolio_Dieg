@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import "./carousel.min.css";
 import "./Carousele.css"
 import projetPortfolio from "../../media/Projet1.png"
 import imageprojetjava1 from "../../media/imageprojetjava1.png"
