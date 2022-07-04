@@ -92,6 +92,7 @@
 .bloccompetences>h3 {
     color: white;
     font-size: 2vh;
+    padding-top: 5vh;
 }
 
 .bloccompetences>ul>li {
@@ -141,6 +142,7 @@
 
     .bloctitre>h2 {
         font-size: 2.5vh;
+
     }
 
     .bloc2 {
@@ -182,11 +184,13 @@
     .bloccompetences>h1 {
         color: turquoise;
         font-size: 2vh;
+
     }
 
     .bloccompetences>h3 {
         color: white;
         font-size: 2vh;
+        padding-top: 5vh;
     }
 
     .bloccompetences>ul>li {

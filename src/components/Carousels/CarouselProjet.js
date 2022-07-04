@@ -9,6 +9,8 @@ import imageprojetjava2 from "../../media/imageprojetjava2.png"
 
 const CarouselProjet = () => {
 
+
+
     return (
         <div className='background-carousel' id="idprojets">
 
@@ -17,7 +19,7 @@ const CarouselProjet = () => {
 
             <div data-aos="fade-up" data-aos-duration="1000" className="bloc-carousel">
 
-                <Carousel>
+                <Carousel showStatus={false} infiniteLoop={true} swipeable={true} emulateTouch={true} >
                     <div key="slide1" className='slideabc'>
 
                         <div className='image-carousel'>
@@ -40,7 +42,7 @@ const CarouselProjet = () => {
                             <img src={projetPortfolio} alt="" className='imageprojetjava' />
                         </div>
                         <h4>Portfolio</h4>
-                        <p> lien Github : <a className='lienProjet' href='https://github.com/diego-2909/Projet_Blockchain/tree/main/Projet_Blockchain'>ici</a></p>
+                        <p> lien Github : <a className='lienProjet' href='https://github.com/diego-2909/Portfolio_Diego'>ici</a></p>
 
 
 
@@ -52,7 +54,7 @@ const CarouselProjet = () => {
 
 
 
-        </div>
+        </div >
     );
 };
 

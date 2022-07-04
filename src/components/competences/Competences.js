@@ -36,11 +36,6 @@ const Competences = () => {
                 </ul>
             </div>
 
-            <div data-aos="fade-left" data-aos-duration="2000" className="bloctitre">
-                <h2>Langages appris en autodidacte :</h2>
-
-            </div>
-
 
             <div data-aos="fade-left" data-aos-duration="1000" className="bloc1 miniature">
                 <img src={html} alt="" className='imagelogo' />

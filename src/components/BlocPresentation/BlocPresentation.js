@@ -31,7 +31,7 @@ const BlocPresentation = () => {
             <div className="div4">
                 <a href='https://github.com/diego-2909'><i className="mail"><FaGithubSquare size={22} /></i></a>
                 <a href='https://www.linkedin.com/in/diego-cortes31/'><i className="mail"><FaLinkedin size={22} /></i></a>
-                <a href='https://github.com/diego-2909'><i className="mail"><FaTwitterSquare size={22} /></i></a>
+                <a href='https://twitter.com/DiegoC_web'><i className="mail"><FaTwitterSquare size={22} /></i></a>
                 <a href='mailto:d.cortes@me.com'><i className="mail"><RiMailFill size={24.5} /></i></a>
 
 
