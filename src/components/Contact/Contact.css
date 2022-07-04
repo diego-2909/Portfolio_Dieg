@@ -1,6 +1,6 @@
 .contact {
     background-color: #1F1D2C;
-    height: 100vh;
+    max-height: 110vh;
     padding-top: 15vh;
 
 
@@ -68,7 +68,7 @@
 
 .text {
 
-    width: 75vh;
+    width: 75%;
     height: 40vh;
     resize: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

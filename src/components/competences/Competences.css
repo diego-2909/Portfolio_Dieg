@@ -8,6 +8,14 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     padding-top: 10vh;
+    overflow-x: hidden;
+}
+
+.competences-titre {
+    grid-area: 1 / 5 / 2 / 9;
+    color: turquoise;
+    text-decoration: underline;
+
 }
 
 .bloc2 {
@@ -61,6 +69,10 @@
 
 .logocss {
     width: 6vh;
+}
+
+.reactlogo {
+    width: 13vh;
 }
 
 .parentheses {
@@ -118,8 +130,13 @@
     }
 
     .bloctitre {
-        grid-area: 1 / 2 / 2 / 7;
+        display: none;
 
+    }
+
+    .competences-titre {
+        grid-area: 1 / 2 / 2 / 7;
+        font-size: 2vh;
     }
 
     .bloctitre>h2 {
@@ -149,12 +166,18 @@
     }
 
     .imagelogo {
-        width: 15vh;
+        width: 9vh;
+    }
+
+    .reactlogo {
+        width: 8vh;
     }
 
     .logocss {
-        width: 45%;
+        width: 5.5vh;
     }
+
+
 
     .bloccompetences>h1 {
         color: turquoise;
@@ -169,6 +192,16 @@
     .bloccompetences>ul>li {
         padding: 3% 0;
         font-size: 1.5vh;
+    }
+
+    .miniature {
+        display: flex;
+        flex-direction: column;
+        background-color: #262837;
+        border: 3px solid #555a80;
+        border-radius: 15px;
+        align-items: center;
+        justify-content: center;
     }
 
 }

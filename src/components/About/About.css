@@ -17,6 +17,7 @@
     align-items: center;
     overflow-wrap: break-word;
     white-space: pre-line;
+
 }
 
 .description-about {
@@ -25,13 +26,28 @@
     color: white;
     word-wrap: break-word;
     white-space: pre-line;
-    font-size: 2vh;
+    font-size: 14px;
 }
 
 .titre-about {
-    margin-top: 30px;
+    margin-top: 20px;
     color: turquoise;
     border-bottom: 1px solid turquoise;
+    font-size: 2vh;
+
+
+}
+
+@media screen and (min-width: 800px) {
+    .bloc-about {
+        max-height: 100vh;
+
+        max-width: 50%;
+    }
+
+    .description-about {
+        font-size: 2vh;
+    }
 
 
 }

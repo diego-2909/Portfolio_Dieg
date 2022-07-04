@@ -22,9 +22,8 @@ function App() {
         <Navbar />
         <BlocPresentation />
         <About />
-        <CarouselProjet />
-
         <Competences />
+        <CarouselProjet />
         <Contact />
       </div>
     </>

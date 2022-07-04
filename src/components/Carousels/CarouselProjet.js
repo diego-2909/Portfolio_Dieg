@@ -12,6 +12,9 @@ const CarouselProjet = () => {
     return (
         <div className='background-carousel' id="idprojets">
 
+
+            <h2 data-aos="fade-up" data-aos-duration="1000" className='nomProjet'>Projets</h2>
+
             <div data-aos="fade-up" data-aos-duration="1000" className="bloc-carousel">
 
                 <Carousel>

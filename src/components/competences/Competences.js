@@ -16,8 +16,12 @@ const Competences = () => {
     }, []);
     return (
         <div className="competences" id="competences">
+            <div className="competences-titre">
+                <h1>Compétences</h1>
+            </div>
+
             <div className="bloccompetences miniature">
-                <h1>Compétences <br /><br /></h1>
+
                 <h3>Langages appris en Licence informatique :</h3>
 
                 <ul className='listeLangages'>
@@ -40,14 +44,12 @@ const Competences = () => {
 
             <div data-aos="fade-left" data-aos-duration="1000" className="bloc1 miniature">
                 <img src={html} alt="" className='imagelogo' />
-                <span className='nomlogiciel'>html</span>
                 <span className='desclogiciel'> Bonnes conaissances</span>
 
 
             </div>
             <div data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000" className="bloc2 miniature">
                 <img src={css} alt="" className='logocss' />
-                <span className='nomlogiciel'>CSS</span>
                 <span className='desclogiciel'>Bonnes conaissances</span>
 
             </div>
@@ -58,8 +60,8 @@ const Competences = () => {
 
             </div>
             <div data-aos="fade-left" data-aos-duration="2000" data-aos-delay="400" className="bloc4 miniature">
-                <img src={react} alt="" className='imagelogo' />
-                <span className='nomlogiciel'>React</span>
+                <img src={react} alt="" className='reactlogo' />
+                <span className='nomlogiciel'>Librairie React</span>
                 <span className='desclogiciel'>Bases <br /></span>
 
 
