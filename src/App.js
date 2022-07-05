@@ -1,12 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
 import BlocPresentation from './components/BlocPresentation/BlocPresentation';
 import About from './components/About/About';
 import Competences from './components/competences/Competences';
 import { Contact } from './components/Contact/Contact';
-import Projets from './components/Projets/Projets'
 import CarouselProjet from './components/Carousels/CarouselProjet';
 
 

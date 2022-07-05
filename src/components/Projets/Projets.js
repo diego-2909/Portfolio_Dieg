@@ -1,11 +1,5 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import "./Projets.css"
-import css from "../../media/1200px-CSS.3.svg.png"
-import js from "../../media/js-logo.png"
-import html from "../../media/5847f5bdcef1014c0b5e489c.png"
-import react from "../../media/React-icon.svg.png"
-import { FaJava, FaSortAlphaDown } from 'react-icons/fa';
-import Aos from 'aos';
 import projetPortfolio from "../../media/Projet1.png"
 import imageprojetjava1 from "../../media/imageprojetjava1.png"
 import imageprojetjava2 from "../../media/imageprojetjava2.png"
