@@ -4,7 +4,6 @@ import css from "../../media/1200px-CSS.3.svg.png"
 import js from "../../media/js-logo.png"
 import html from "../../media/5847f5bdcef1014c0b5e489c.png"
 import react from "../../media/React-icon.svg.png"
-import { FaJava, FaSortAlphaDown } from 'react-icons/fa';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
@@ -31,7 +30,6 @@ const Competences = () => {
                     <li>Java </li>
                     <li>SQL</li>
                     <li>Assembleur</li>
-                    <li>Python</li>
                     <li>Bash</li>
                 </ul>
             </div>

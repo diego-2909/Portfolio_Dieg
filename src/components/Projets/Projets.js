@@ -25,10 +25,10 @@ const Projets = () => {
 
             </div>
             <div data-aos="fade-left" data-aos-duration="2000" data-aos-delay="400" className="projet3 blocprojet">
-                <img src={imageprojetjava2} alt="" className='imageprojetjava' />
-                <img src={imageprojetjava1} alt="" className='imageprojetjava' />
+                <img src={imageprojetjava2} alt="" className='image-projet-carousel' />
+                <img src={imageprojetjava1} alt="" className='image-projet-carousel' />
                 <h4>Blockchain en C et en Java</h4>
-                <p> lien Github : <a className='lienProjet' href='https://github.com/diego-2909/Projet_Blockchain/tree/main/Projet_Blockchain'>ici</a></p>
+                <p> lien hhGithub : <a href='https://github.com/diego-2909/Projet_Blockchain/tree/main/Projet_Blockchain'>ici</a></p>
 
             </div>
 

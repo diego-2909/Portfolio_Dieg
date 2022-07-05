@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "./Navbar.css"
 import CV from "../../media/CV_Alternance_Web.pdf";
 import { HiOutlineDocumentDownload } from 'react-icons/hi';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import "aos/dist/aos.css";
 
 
@@ -40,7 +40,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="rightside">
-                    <ul className=' liste'>
+                    <ul className=' menu-horizontal'>
                         <li > <Link activeClass="active"
 
                             to="accueil"
@@ -48,14 +48,14 @@ const Navbar = () => {
                             smooth={true}
                             offset={0}
                             duration={500} > Accueil</Link> </li>
-                        <li> <Link className="underline" activeClass="active"
+                        <li> <Link activeClass="active"
                             to="aboutme"
                             spy={true}
                             smooth={true}
                             offset={0}
                             duration={500} >À propos de moi</Link> </li>
                         <li>
-                            <Link className="underline" activeClass="active "
+                            <Link activeClass="active "
                                 to="competences"
                                 spy={true}
                                 smooth={true}
@@ -63,7 +63,7 @@ const Navbar = () => {
                                 duration={500} > Compétences</Link>
                         </li>
                         <li>
-                            <Link className="underline" activeClass="active"
+                            <Link activeClass="active"
                                 to="idprojets"
                                 spy={true}
                                 smooth={true}
@@ -77,15 +77,15 @@ const Navbar = () => {
                             offset={0}
                             duration={500} >Me Contacter</Link> </li>
 
-                        <li><a href={CV} download className="grandCV myButton"><h4>Téléchargez mon CV</h4> <HiOutlineDocumentDownload /></a></li>
-                        <li><a href={CV} download className="petitCV myButton"><h4>CV</h4> <HiOutlineDocumentDownload /></a></li>
+                        <li><a href={CV} download className="grandCV bouton-bleu"><h4>Téléchargez mon CV</h4> <HiOutlineDocumentDownload /></a></li>
+                        <li><a href={CV} download className="petitCV bouton-bleu"><h4>CV</h4> <HiOutlineDocumentDownload /></a></li>
                     </ul>
                 </div>
             </nav >
 
 
             <div className={menu_class}>
-                <ul className=' liste_menu'>
+                <ul className=' menu-vertical'>
                     <li> <Link activeClass="active"
                         onClick={updateMenu}
                         to="accueil"
@@ -93,7 +93,7 @@ const Navbar = () => {
                         smooth={true}
                         offset={0}
                         duration={500} >Accueil</Link> </li>
-                    <li> <Link className="underline" activeClass="active"
+                    <li> <Link activeClass="active"
                         onClick={updateMenu}
                         to="aboutme"
                         spy={true}
@@ -101,7 +101,7 @@ const Navbar = () => {
                         offset={0}
                         duration={900} >À propos de moi</Link> </li>
                     <li>
-                        <Link className="underline" activeClass="active"
+                        <Link activeClass="active"
                             onClick={updateMenu}
                             to="competences"
                             spy={true}
@@ -110,7 +110,7 @@ const Navbar = () => {
                             duration={900} > Compétences</Link>
                     </li>
                     <li>
-                        <Link className="underline" activeClass="active"
+                        <Link activeClass="active"
                             onClick={updateMenu}
                             to="idprojets"
                             spy={true}
@@ -126,7 +126,7 @@ const Navbar = () => {
                         offset={0}
                         duration={900} >Me Contacter</Link> </li>
 
-                    <li><a href={CV} download className="myButton"><h4>Téléchargez mon CV</h4> <HiOutlineDocumentDownload /></a></li>
+                    <li><a href={CV} download className="bouton-bleu"><h4>Téléchargez mon CV</h4> <HiOutlineDocumentDownload /></a></li>
                 </ul>
 
 

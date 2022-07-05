@@ -33,7 +33,7 @@ i {
     grid-area: 1 / 1 / 5 / 6;
 }
 
-.div4 {
+.logos-presentation {
     grid-area: 5 / 1 / 6 / 6;
 }
 
@@ -52,7 +52,7 @@ i {
 }
 
 
-.div4 {
+.logos-presentation {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -144,7 +144,7 @@ i {
 
     }
 
-    .div4 {
+    .logos-presentation {
         grid-area: 10 / 4 / 11 / 8;
     }
 

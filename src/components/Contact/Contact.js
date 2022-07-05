@@ -42,7 +42,7 @@ export const Contact = () => {
 
                 </div>
                 <div className="boutonenvoie">
-                    <input className='myButton boutonenvoyer' type="submit" value="Envoyer" />
+                    <input className='bouton-bleu boutonenvoyer' type="submit" value="Envoyer" />
                 </div>
 
             </form>

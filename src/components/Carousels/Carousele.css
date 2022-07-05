@@ -44,7 +44,7 @@
 
 }
 
-.imageprojetjava {
+.image-projet-carousel {
     height: 45vh;
     object-fit: contain;
     max-width: 50%;
@@ -69,7 +69,7 @@
         display: none !important;
     }
 
-    .imageprojetjava {
+    .image-projet-carousel {
         max-width: 150vh;
         object-fit: contain;
         padding: 0;
@@ -87,4 +87,18 @@
     padding-bottom: 5vh;
     color: turquoise;
     text-decoration: underline;
+}
+
+a {
+    color: white;
+
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: gray;
+
 }

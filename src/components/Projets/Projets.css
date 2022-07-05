@@ -64,7 +64,7 @@
     width: 30vh;
 }
 
-.imageprojetjava {
+.image-projet-carousel {
     height: 24vh;
     margin-bottom: 2vh;
 }
@@ -77,12 +77,16 @@
     font-size: 2vh;
 }
 
-.lienProjet {
-    color: white;
+a {
+    color: red;
 
 }
 
-.lienProjet:hover {
+a:visited {
+    color: white;
+}
+
+a:hover {
     color: gray;
 
 }

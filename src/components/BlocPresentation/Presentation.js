@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import profil from "../../media/IMG_9493.jpg"
 import Aos from 'aos';
-import "./BlocPresentation.css"
+import "./Presentation.css"
 import { FaTwitterSquare } from 'react-icons/fa';
 import { FaGithubSquare } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
@@ -28,11 +28,11 @@ const BlocPresentation = () => {
 
             </div>
 
-            <div className="div4">
-                <a href='https://github.com/diego-2909'><i className="mail"><FaGithubSquare size={22} /></i></a>
-                <a href='https://www.linkedin.com/in/diego-cortes31/'><i className="mail"><FaLinkedin size={22} /></i></a>
-                <a href='https://twitter.com/DiegoC_web'><i className="mail"><FaTwitterSquare size={22} /></i></a>
-                <a href='mailto:d.cortes@me.com'><i className="mail"><RiMailFill size={24.5} /></i></a>
+            <div className="logos-presentation">
+                <a href='https://github.com/diego-2909'><i><FaGithubSquare size={22} /></i></a>
+                <a href='https://www.linkedin.com/in/diego-cortes31/'><i><FaLinkedin size={22} /></i></a>
+                <a href='https://twitter.com/DiegoC_web'><i><FaTwitterSquare size={22} /></i></a>
+                <a href='mailto:d.cortes@me.com'><i><RiMailFill size={24.5} /></i></a>
 
 
             </div>

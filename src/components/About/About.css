@@ -28,7 +28,7 @@
     color: white;
     word-wrap: break-word;
     white-space: pre-line;
-    font-size: 14px;
+    font-size: 3vh;
 }
 
 .titre-about {
@@ -44,11 +44,23 @@
     .bloc-about {
         max-height: 100vh;
 
-        max-width: 50%;
+        max-width: 70%;
     }
 
     .description-about {
-        font-size: 2vh;
+        font-size: 2.3vh;
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {
+    .bloc-about {
+        max-height: 90vh;
+    }
+
+    .description-about {
+        font-size: 1.8vh;
     }
 
 

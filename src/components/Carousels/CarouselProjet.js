@@ -23,8 +23,8 @@ const CarouselProjet = () => {
                     <div key="slide1" className='slideabc'>
 
                         <div className='image-carousel'>
-                            <img src={imageprojetjava2} alt="" className='imageprojetjava imagecache' />
-                            <img src={imageprojetjava1} alt="" className='imageprojetjava' />
+                            <img src={imageprojetjava2} alt="" className='image-projet-carousel imagecache' />
+                            <img src={imageprojetjava1} alt="" className='image-projet-carousel' />
 
 
 
@@ -39,7 +39,7 @@ const CarouselProjet = () => {
                     <div key="slide2" className='slideabc'>
 
                         <div className='image-carousel'>
-                            <img src={projetPortfolio} alt="" className='imageprojetjava' />
+                            <img src={projetPortfolio} alt="" className='image-projet-carousel' />
                         </div>
                         <h4>Portfolio</h4>
                         <p> lien Github : <a className='lienProjet' href='https://github.com/diego-2909/Portfolio_Diego'>ici</a></p>

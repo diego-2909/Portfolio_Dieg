@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/navbar/Navbar';
-import BlocPresentation from './components/BlocPresentation/BlocPresentation';
+import BlocPresentation from './components/BlocPresentation/Presentation';
 import About from './components/About/About';
 import Competences from './components/competences/Competences';
 import { Contact } from './components/Contact/Contact';
