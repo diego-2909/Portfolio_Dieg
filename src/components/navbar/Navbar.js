@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./Navbar.css"
-import CV from "../../media/CV_Alternance.pdf";
+import CV from "../../media/CV_Alternance_Web.pdf";
 import { HiOutlineDocumentDownload } from 'react-icons/hi';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import "aos/dist/aos.css";
