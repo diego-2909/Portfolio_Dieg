@@ -77,7 +77,7 @@ const Navbar = () => {
                             offset={0}
                             duration={500} >Me Contacter</Link> </li>
 
-                        <li><a href={CV} download className="grandCV bouton-bleu"><h4>Téléchargez mon CV</h4> <HiOutlineDocumentDownload /></a></li>
+                        <li><a href={CV} download className="grandCV bouton-bleu"><h4>Télécharger le CV</h4> <HiOutlineDocumentDownload /></a></li>
                         <li><a href={CV} download className="petitCV bouton-bleu"><h4>CV</h4> <HiOutlineDocumentDownload /></a></li>
                     </ul>
                 </div>
@@ -126,7 +126,7 @@ const Navbar = () => {
                         offset={0}
                         duration={900} >Me Contacter</Link> </li>
 
-                    <li><a href={CV} download className="bouton-bleu"><h4>Téléchargez mon CV</h4> <HiOutlineDocumentDownload /></a></li>
+                    <li><a href={CV} download className="bouton-bleu"><h4>Télécharger le CV</h4> <HiOutlineDocumentDownload /></a></li>
                 </ul>
 
 
